@@ -1,2 +1,0 @@
-class BurgersController < ApplicationController
-end
