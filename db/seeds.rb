@@ -9,6 +9,10 @@
 
 # User.create(name: "Timur", username: "BurgerEater", email: "timur_mishiev@yahoo.com", password: "password" )
 
+# User.create(name: "Ira", username: "CookieMonster", email: "ira.mishiev@gmail.com", password: "password" )
+
+# User.create(name: "Dumbo", username: "BigEars", email: "dumbo@gmail.com", password: "password" )
+
 # t.string "title"
 # t.string "url"
 
