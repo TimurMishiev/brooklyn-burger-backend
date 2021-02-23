@@ -25,7 +25,7 @@ class Api::V1::BurgersController < ApplicationController
   private
 
   def set_restaurant
-    @restaurant = Restaurant.find(params [:restaurant_id])
+    @restaurant = Restaurant.find(params[:restaurant_id])
   end
 
       
