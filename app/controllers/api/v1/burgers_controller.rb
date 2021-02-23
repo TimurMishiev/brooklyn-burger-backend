@@ -1,5 +1,6 @@
 class Api::V1::BurgersController < ApplicationController
   before_action :set_restaurant
+  
     def index
       @burgers = @restaurant.burgers
   
@@ -30,7 +31,7 @@ class Api::V1::BurgersController < ApplicationController
 
       
   def burger_params
-    params.require(:burger).permit(:name, :price, :description,:status, :restaurant_id, :image )
+    params.require(:burger).permit(:name, :price, :description,:status, :image, :restaurant_id )
   end 
   
 
