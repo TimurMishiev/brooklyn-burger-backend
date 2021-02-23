@@ -1,17 +1,18 @@
 class Api::V1::BurgersController < ApplicationController
-  class Api::V1::BurgersController < ApplicationController
+  before_action :set_restaurant
     def index
-      @burgers = Burger.all
+      @burgers = @restaurant.burgers
   
       render json: @burgers
     end
   
     def show
+      @burgers = Burger.find(params[:id])
       render json: @burgers
     end
   
      def create
-      @burger = Burger.new(burger_params)
+      @burger = @restaurant.new(burger_params)
       if @burger.save 
         render json: @burger
       else
@@ -22,11 +23,16 @@ class Api::V1::BurgersController < ApplicationController
   
 
   private
-     def burger_params
-      params.require(:burger).permit(:name, :price, :description, :status, :restaurant_id, :image )
-     end 
-  
-  
+
+  def set_restaurant
+    @restaurant = Restaurant.find(params [:restaurant_id])
   end
+
+      
+  def burger_params
+    params.require(:burger).permit(:name, :price, :description,:status, :restaurant_id, :image )
+  end 
+  
+
   
 end
