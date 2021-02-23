@@ -10,7 +10,7 @@ class Api::V1::RestaurantsController < ApplicationController
 
   # GET /restaurants/1
   def show
-    render json: @restaurant
+    render json: @restaurant, include: ['burgers']
   end
 
   # POST /restaurants

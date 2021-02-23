@@ -18,9 +18,12 @@ class Api::V1::BurgersController < ApplicationController
         render json: {errors: {message: "plese try adding the burger again"}}
       end 
      end 
+
+  
+
   private
      def burger_params
-      params.require(:burger).permit(:name, :price, :description, :status )
+      params.require(:burger).permit(:name, :price, :description, :status, :restaurant_id, :image )
      end 
   
   

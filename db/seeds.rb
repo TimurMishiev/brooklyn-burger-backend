@@ -63,6 +63,12 @@
 
 # parkslope = Restaurant.create(title: "Burger Hub Park Slope", url: "burger-hub-park-slope")
 
-# burger1 = parkslope.burgers.create(name: "CheeseBurger", price: 12.00, image: "/image/cheese.jpg", status: "available", description: "Classic Burger  with  100%  grass-fed beef with pickes, and a fresh wheat bun.")
+# burger1 = bayridge.burgers.create(name: "CheeseBurger", price: 12.00, image: "/image/cheese.jpg", status: "available", description: "Classic Burger  with  100%  grass-fed beef with pickes, and a fresh wheat bun.")
 
-# burger2 = parkslope.burgers.create(name: "ChickenBurger", price: 10.00, image: "/images/chicken.jpg", status: "available", description: "Chicken patty with melted American Cheese, BBQ souce,onion, tomato, and lettuce")
+# burger2 = bayridge.burgers.create(name: "ChickenBurger", price: 10.00, image: "/images/chicken.jpg", status: "available", description: "Chicken patty with melted American Cheese, BBQ souce,onion, tomato, and lettuce")
+
+# bayridge = Restaurant.create(title: "Burger Hub Bay Ridge", url: "burger-hub-bay-ridge")
+
+# burger1 = bayridge.burgers.create(name: "CheeseBurger", price: 12.00, image: "/image/cheese.jpg", status: "available", description: "Classic Burger  with  100%  grass-fed beef with pickes, and a fresh wheat bun.")
+
+# burger2 = bayridge.burgers.create(name: "ChickenBurger", price: 10.00, image: "/images/chicken.jpg", status: "available", description: "Chicken patty with melted American Cheese, BBQ souce,onion, tomato, and lettuce")

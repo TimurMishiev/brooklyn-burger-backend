@@ -1,5 +1,6 @@
 class Burger < ApplicationRecord
   belongs_to :restaurant
+  belongs_to :user
 
-  validates :name, :restaurant
+  
 end
