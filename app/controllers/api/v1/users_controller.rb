@@ -8,10 +8,9 @@ class Api::V1::UsersController < ApplicationController
     render json: @users
   end
 
-  # GET /users/1
+ 
   def show
-    #render json: @user
-    # json_string = MovieSerializer.new(movie).serialized_json
+   
     user_json = UserSerializer.new(@user).serialized_json
     render json: user_json
   end
