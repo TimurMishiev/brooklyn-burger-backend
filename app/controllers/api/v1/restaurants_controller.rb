@@ -8,13 +8,20 @@ class Api::V1::RestaurantsController < ApplicationController
     render json: @restaurants
   end
 
-  # GET /restaurants/1
+ 
   def show
     @restaurant = Restaurant.find(params[:id])
-    render json: @restaurant, include: ['burgers']
+    render json: @restaurant
   end
 
-  
+  def create 
+    @restaurant = Restaurant.new(restaurant_params)
+    if @restaurant.save
+      render json: @restaurant 
+    else 
+      render json: {message: 'in ordrer to create restaurants you have to be an owner'}
+    end 
+  end 
   
 
 

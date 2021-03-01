@@ -2,7 +2,8 @@ class Api::V1::BurgersController < ApplicationController
   before_action :set_restaurant
   
     def index
-      @burgers = @restaurant.burgers
+      # @burgers = @restaurant.burgers
+      @burgers = Burger.all
   
       render json: @burgers
     end
@@ -13,12 +14,13 @@ class Api::V1::BurgersController < ApplicationController
     end
   
      def create
-      @burger = @restaurant.new(burger_params)
+     @burger = @restaurant.burgers.new(burger_params)
       if @burger.save 
         render json: @burger
-      else
-        render json: {errors: {message: "plese try adding the burger again"}}
+      else 
+        render json: {errors: { message: "Please try adding Burger Again"}}
       end 
+     
      end 
 
   
