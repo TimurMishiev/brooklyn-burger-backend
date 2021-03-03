@@ -25,60 +25,33 @@
 
 # dumbo = Restaurant.create(title: "Burger Hub Dumbo", url: "burger-hub-dumbo")
 
-# burger1 = dumbo.burgers.create(name: "CheeseBurger", price: 12.00, image: "/image/cheese.jpg", status: "available", description: "Classic Burger  with  100%  grass-fed beef with pickes, and a fresh wheat bun.")
 
-# burger2 = dumbo.burgers.create(name: "ChickenBurger", price: 10.00, image: "/images/chicken.jpg", status: "available", description: "Chicken patty with melted American Cheese, BBQ souce,onion, tomato, and lettuce")
 
-# this data not seeded:
-# {
-# burger3 = dumbo.burgers.create(name: "Cheeseburger", price: 12.00, image: "/image/cheese.jpg", status: "available", description: "Classic Burger  with  100%  grass-fed beef with
-# pickes, and a fresh wheat bun.")
 
-# burger4 = dumbo.burgers.create(name: "Cheeseburger", price: 12.00, image: "/image/cheese.jpg", status: "available", description: "Classic Burger  with  100%  grass-fed beef with
-# pickes, and a fresh wheat bun.")
 
-# burger5 = dumbo.burgers.create(name: "Cheeseburger", price: 12.00, image: "/image/cheese.jpg", status: "available", description: "Classic Burger  with  100%  grass-fed beef with
-# pickes, and a fresh wheat bun.")
 
-# burger6 = dumbo.burgers.create(name: "Cheeseburger", price: 12.00, image: "/image/cheese.jpg", status: "available", description: "Classic Burger  with  100%  grass-fed beef with
-# pickes, and a fresh wheat bun.")
 
-# burger7 = dumbo.burgers.create(name: "Cheeseburger", price: 12.00, image: "/image/cheese.jpg", status: "available", description: "Classic Burger  with  100%  grass-fed beef with
-# pickes, and a fresh wheat bun.")
+# ditmaspark = Restaurant.create(title: "Burger Hub Ditmas Park", url: "burger-hub-ditmas-park")
 
-# burger8 = dumbo.burgers.create(name: "Cheeseburger", price: 12.00, image: "/image/cheese.jpg", status: "available", description: "Classic Burger  with  100%  grass-fed beef with
-# pickes, and a fresh wheat bun.")
+# burger1 = ditmaspark.burgers.create(name: "CheeseBurger", price: 12.00, image: "/images/cheese.jpg" , status: "available", description: "Classic Burger  with  100%  grass-fed beef with pickes, and a fresh wheat bun.")
 
-# burger9 = dumbo.burgers.create(name: "Cheeseburger", price: 12.00, image: "/image/cheese.jpg", status: "available", description: "Classic Burger  with  100%  grass-fed beef with
-# pickes, and a fresh wheat bun.")
-# }
+# burger2 = ditmaspark.burgers.create(name: "ChickenBurger", price: 10.00, image: "/images/chicken.jpg" , status: "available", description: "Chicken patty with melted American Cheese, BBQ souce,onion, tomato, and lettuce")
 
-ditmaspark = Restaurant.create(title: "Burger Hub Ditmas Park", url: "burger-hub-ditmas-park")
+# burger3 = ditmaspark.burgers.create(name: "Double Burger", price: 12.00, image: "/images/double.jpg", status: "available", description: "Two Beef patties with melted Cheddar and avocado." )
 
-burger1 = ditmaspark.burgers.create(name: "CheeseBurger", price: 12.00, image: "/images/cheese.jpg" , status: "available", description: "Classic Burger  with  100%  grass-fed beef with pickes, and a fresh wheat bun.")
+# burger4 = ditmaspark.burgers.create(name: "Fishburger", price: 13.50, image: "/images/fish.jpg", status: "available", description: "Grilled Fish fillet with lettuce, homemade light mayo, and pickles." )
 
-burger2 = ditmaspark.burgers.create(name: "ChickenBurger", price: 10.00, image: "/images/chicken.jpg" , status: "available", description: "Chicken patty with melted American Cheese, BBQ souce,onion, tomato, and lettuce")
+# burger5 = ditmaspark.burgers.create(name: "Bison Burger", price: 15.00, image: "/images/bison.jpg", status: "available", description: " Wild bison patty, bacon, American Cheese, Mayo." )
 
-burger3 = ditmaspark.burgers.create(name: "Double Burger", price: 12.00, image: "/images/double.jpg", status: "available", description: "Two Beef patties with melted Cheddar and avocado." )
+# burger6 = ditmaspark.burgers.create(name: "Mega Burger", price: 14.00, image: "/images/mega.jpg", status: "available", description: "Two grass fed beef patties, cheddar, and pikles." )
 
-burger4 = ditmaspark.burgers.create(name: "Fishburger", price: 13.50, image: "/images/fish.jpg", status: "available", description: "Grilled Fish fillet with lettuce, homemade light mayo, and pickles." )
-
-burger5 = ditmaspark.burgers.create(name: "Bison Burger", price: 15.00, image: "/images/bison.jpg", status: "available", description: " Wild bison patty, bacon, American Cheese, Mayo." )
-
-burger6 = ditmaspark.burgers.create(name: "Mega Burger", price: 14.00, image: "/images/mega.jpg", status: "available", description: "Two grass fed beef patties, cheddar, and pikles." )
-
-burger7 = ditmaspark.burgers.create(name: "Pita Burger", price: 11.00, image: "/images/pita.jpg", status: "available", description: "four small grass fed  beef patties , cheddar cheese, with lettuce, tomato, onion and freshly baked wheat pitta." )
+# burger7 = ditmaspark.burgers.create(name: "Pita Burger", price: 11.00, image: "/images/pita.jpg", status: "available", description: "four small grass fed  beef patties , cheddar cheese, with lettuce, tomato, onion and freshly baked wheat pitta." )
 
 
 
 # parkslope = Restaurant.create(title: "Burger Hub Park Slope", url: "burger-hub-park-slope")
 
-# burger1 = bayridge.burgers.create(name: "CheeseBurger", price: 12.00, image: "/image/cheese.jpg", status: "available", description: "Classic Burger  with  100%  grass-fed beef with pickes, and a fresh wheat bun.")
 
-# burger2 = bayridge.burgers.create(name: "ChickenBurger", price: 10.00, image: "/images/chicken.jpg", status: "available", description: "Chicken patty with melted American Cheese, BBQ souce,onion, tomato, and lettuce")
 
 # bayridge = Restaurant.create(title: "Burger Hub Bay Ridge", url: "burger-hub-bay-ridge")
 
-# burger1 = bayridge.burgers.create(name: "CheeseBurger", price: 12.00, image: "/image/cheese.jpg", status: "available", description: "Classic Burger  with  100%  grass-fed beef with pickes, and a fresh wheat bun.")
-
-# burger2 = bayridge.burgers.create(name: "ChickenBurger", price: 10.00, image: "/images/chicken.jpg", status: "available", description: "Chicken patty with melted American Cheese, BBQ souce,onion, tomato, and lettuce")
